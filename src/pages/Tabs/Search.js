@@ -2,8 +2,8 @@ import React from "react";
 import { IonContent, IonPage, IonSearchbar } from "@ionic/react";
 import firebase from "../../firebase";
 import LinkItem from "../../components/Link/LinkItem";
-import LargeHeader from "../../components/Header/LargeHeader";
-import SmallHeader from "../../components/Header/SmallHeader";
+import LargeHeader from "../../components/Headers/LargeHeader";
+import SmallHeader from "../../components/Headers/SmallHeader";
 
 const Search = () => {
   const [filteredLinks, setFilteredLinks] = React.useState([]);
